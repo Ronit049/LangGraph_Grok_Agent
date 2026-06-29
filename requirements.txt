@@ -1,0 +1,30 @@
+# LangGraph + Grok Agent Implementation
+# Python 3.10+ required
+
+# Core LangChain & LangGraph
+langchain==0.1.11
+langchain-core>=0.1.29,<0.2
+langgraph==0.0.16
+langsmith>=0.1.17,<0.2.0
+
+
+
+# Alternative providers (optional)
+langchain-openai==0.0.5
+langchain-google-genai==0.0.9
+
+# Data & Processing
+pydantic
+pydantic-core
+python-dotenv
+
+# Web & API
+requests==2.31.0
+httpx==0.25.1
+aiohttp==3.9.1
+
+# Database & Persistence
+sqlalchemy==2.0.23
+
+# Utilities
+python-dateutil==2.8.2
